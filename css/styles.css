@@ -1356,11 +1356,23 @@ h3 {
     .navbar {
         top: 0.75rem;
         width: calc(100% - 1.5rem);
+        padding: 0 1rem;
+        justify-content: flex-start;
+        gap: 0.5rem;
+    }
+
+    .nav-logo {
+        flex: 1;
+        min-width: 0;
     }
 
     /* Show hamburger, hide desktop menu */
     .nav-toggle {
         display: flex;
+    }
+
+    .nav-controls {
+        gap: 0.5rem;
     }
 
     .nav-controls .btn {
